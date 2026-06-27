@@ -1,0 +1,21 @@
+class Solution:
+    def combinationSum(self, nums: List[int], target: int) -> List[List[int]]:
+
+        res = []
+        subSet = []
+
+        def dfs(subSet, i, total):
+            if i >= len(nums) or total > target:
+                return
+            if total == target:
+                res.append(subSet.copy())
+            
+            subSet.append(nums[i])
+
+            dfs(subSet, i, total + nums[i])
+            subSet.pop()
+            dfs(subSet, i+1, total)
+        dfs(subSet, 0)
+        return res
+
+        
