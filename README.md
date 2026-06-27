@@ -1,13 +1,4 @@
-# NeetCode Solutions — @harismalk
-
-> Synced automatically from [NeetCode.io](https://neetcode.io) · Repository: `neetcode-submissions-hbigur0w`
-
----
-
-## What is this?
-
-[NeetCode.io](https://neetcode.io) is a coding interview preparation platform featuring curated problems, video solutions, and an in-browser code editor. This repository is automatically populated with all my submissions using the **GitHub Sync** feature.
-
+# A repository to track my DSA preperation progress. Enjoy!
 ## Repository structure
 
 Solutions are organized by topic folder, then problem ID. Each submission is stored as a separate file:
